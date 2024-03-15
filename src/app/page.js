@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion"
 
 export default function Home() {
-  const [num, setNum] = useState("CLIPPPPPPPX1245676");
+  const [num, setNum] = useState("");
   const [canUseButton, setcanUseButton] = useState(false);
   const [isAnimatingPI, setisAnimatingPI] = useState(false);
   const [aniClickButton, setAniClickButton] = useState({
